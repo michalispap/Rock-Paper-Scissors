@@ -9,6 +9,8 @@ import pygame
 pygame.init()
 pygame.mixer.init()
 
+pygame.mixer.music.load("music.mp3")
+pygame.mixer.music.play(-1,0.0)
 win = pygame.mixer.Sound("win.mp3")
 loss = pygame.mixer.Sound("loss.mp3")
 tie = pygame.mixer.Sound("tie.mp3")
